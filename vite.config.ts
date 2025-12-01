@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // Replace with your repo name (with leading & trailing slash)
-const REPO_BASE = "/janapriya-institutions/";
+const REPO_BASE = "/janapriya-institution/";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
   const base = mode === "production" ? REPO_BASE : "/";
 
   return {
-    base:"/janapriya-institutions",
+    base:"/janapriya-institution",
     server: {
       host: "::",
       port: 8080,
